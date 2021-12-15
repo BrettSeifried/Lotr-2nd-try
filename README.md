@@ -1,3 +1,45 @@
+# What to do
+
+### src/components
+
+- Components are copy/paste from DEMO CODE. CharacterList.js,Controls, FilmsList.js
+  - BookLists. just put a div in it.
+
+### src/services/...
+
+- don't change it. move on to the next one
+
+### views/...
+
+- Books.js
+  - import BookList
+  - set data,
+  - use effect to get books
+  - const getBooks = async
+    - copy/paste the resp
+- return div
+
+  - h1
+  - <BookList />
+
+- Characters
+  - import CharacterList
+  - import Controls
+- handle click
+- return
+
+  - h1
+  - <controls {...}>
+  - <CharacList>
+
+- Films
+
+  - import FilmList & {fetchlist}
+  - data const []
+  - useEffect
+
+  - return div, h1, FilmList
+
 # The One API (sort of) From Scratch
 
 Use [this template repo](https://github.com/alchemycodelab/react-lotr-from-scratch) as your template. Your fetch code for films and characters has been provided for you in the `/src/services` folder - you will need to add the code for books. These are the functions you will call when loading your data. Take a close look at the characters code for fetching to determine how to connect it to your state variables.
